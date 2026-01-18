@@ -26,25 +26,40 @@ export const Card = ({
           transition
         "
       >
-        {/* Top */}
-        <div className="flex justify-between items-start gap-3">
-          <div className="flex flex-col gap-1">
+        {/* Top Section */}
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
+          
+          {/* Book Now */}
+          <span
+            className="
+              text-xs 
+              bg-red-600 
+              text-white 
+              px-3 
+              py-1 
+              rounded-full 
+              animate-soft-blink 
+              w-fit
+              self-start
+              order-1 sm:order-2
+            "
+          >
+            Book Now
+          </span>
+
+          {/* Content */}
+          <div className="flex flex-col gap-1 order-2 sm:order-1">
             <h1 className="text-sm md:text-base font-bold text-black">
               {title}
             </h1>
 
-            <p className="text-sm text-gray-600 line-clamp-2">
+            <p className="text-sm text-gray-600 sm:line-clamp-2">
               {description}
             </p>
           </div>
-
-          {/* Book Now */}
-          <span className="text-xs bg-red-600 text-white px-3 py-1 rounded-full animate-soft-blink whitespace-nowrap">
-            Book Now
-          </span>
         </div>
 
-        {/* Bottom */}
+        {/* Bottom Section */}
         <div className="border-t pt-2 mt-3 flex justify-between items-center text-sm">
           <p className="text-black">
             {meetingType} • {duration}
@@ -58,9 +73,3 @@ export const Card = ({
     </a>
   );
 };
-
-
-
-
-
-

@@ -29,17 +29,14 @@ export const About = () => {
 
             <p className="font-semibold">What have I done? 🔥</p>
 
-            <p>👉 Scaled Betterhalf app – Y Combinator, Kunal Shah backed startup.</p>
+            <p>👉 Recently worked on Supply chain management system Project.</p>
 
             <p>
-              👉 Scaled FilterCopy & Dice Media monthly views from 300 million to
-              500 million.
+              👉 Mentored 1000+ professionals , students & first time founders.
             </p>
 
             <p>
-              👉 Promoted large-scale projects – Indian Super League, Pro Kabaddi
-              League, Martin Garrix music festival, Arijit Singh Concert, IPL,
-              and 20+ events.
+              👉 Worked on 200+ projects of web development.
             </p>
 
             <p>
