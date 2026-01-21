@@ -19,6 +19,14 @@ export const CardSection = () => {
             xl:justify-between
           "
         >
+          {/* 🔥 Popular Card (1st Card) */}
+          <Card
+            title="Personal Doubt / Help"
+            duration="20 min"
+            description="A one-to-one session to discuss your personal doubts, Exam Related Doubt, or study-related issues. Get clear guidance, practical suggestions, and honest feedback tailored to your situation."
+            price={99}
+          />
+
           <Card
             title="Resume Review"
             duration="30 min"
@@ -93,4 +101,5 @@ export const CardSection = () => {
     </>
   );
 };
+
 
