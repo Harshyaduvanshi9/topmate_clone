@@ -12,7 +12,7 @@ export const About = () => {
 
             <div className="bg-red-400 w-48 h-48 md:w-60 md:h-60 overflow-hidden rounded-lg">
               <img
-                src="./profile.jpg"
+                src="./employment.png"
                 alt="Harsh profile"
                 className="w-full h-full object-cover"
               />

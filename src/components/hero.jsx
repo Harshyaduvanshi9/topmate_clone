@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BsLinkedin, BsYoutube, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsYoutube, BsTelegram } from "react-icons/bs";
 
 export const HeroSection = () => {
   const [count, setCount] = useState(0);
@@ -30,7 +30,7 @@ export const HeroSection = () => {
         {/* Profile Image */}
         <div className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full overflow-hidden shadow-lg">
           <img
-            src="/profile.jpg"
+            src="/employment.png"
             alt="Harsh Kumar Yaduvanshi"
             className="w-full h-full object-cover"
           />
@@ -39,7 +39,7 @@ export const HeroSection = () => {
         {/* Content */}
         <div className="flex flex-col w-full md:max-w-2xl text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black pb-3">
-            Harsh Kumar Yaduvanshi
+            Employment War
           </h1>
 
           <p className="text-sm sm:text-base text-black md:w-4/5">
@@ -61,14 +61,14 @@ export const HeroSection = () => {
 
           {/* Social Links */}
           <div className="flex justify-center md:justify-start gap-3 mt-8">
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/harsh-kumar-yaduvanshi/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-slate-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-slate-300 transition"
             >
               <BsLinkedin className="w-5 h-5" />
-            </a>
+            </a> */}
 
             <a
               href="https://www.youtube.com/@EmploymentWar"
@@ -80,12 +80,12 @@ export const HeroSection = () => {
             </a>
 
             <a
-              href="https://www.instagram.com/harsh_yaduvanshi9/"
+              href="https://t.me/EmploymentWarOfficial"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-slate-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-slate-300 transition"
             >
-              <BsInstagram className="w-5 h-5" />
+              <BsTelegram className="w-5 h-5" />
             </a>
           </div>
         </div>
